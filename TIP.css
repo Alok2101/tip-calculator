@@ -1,0 +1,33 @@
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contain{
+    display: grid;
+    grid-template-columns: 1fr ;
+    background-color: rgb(187, 255, 0);
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.hiii{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+    color: rgb(14, 19, 24);
+    text-decoration: underline;
+
+}
+input[type=number]{
+    float: right;
+}
+#btn{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
